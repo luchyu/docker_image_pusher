@@ -1,12 +1,19 @@
-#必选工具/服务镜像
-mysql:8.4
+#最新版本
+mysql:8
+postgres:14
 redis:latest
 nginx:latest
 minio/minio:latest
 btdwv/cronicle:latest
 eclipse-temurin:8-jdk
 eclipse-temurin:17-jdk
+eclipse-temurin:21-jdk
+portainer/portainer-ce:latest
+amir20/dozzle:latest
+rustfs/rustfs:latest
+#特定版本
 nacos/nacos-server:v2.1.1
 nacos/nacos-server:v3.2.3
+rabbitmq:3.11-management
 #支持指定架构
 #--platform=linux/amd64 xiaoyaliu/alist
