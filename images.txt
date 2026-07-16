@@ -1,8 +1,12 @@
+#必选工具/服务镜像
 mysql:8.4
-nginx:latest
-nacos/nacos-server:latest
 redis:latest
-btdwv/cronicle:latest
+nginx:latest
 minio/minio:latest
+btdwv/cronicle:latest
+eclipse-temurin:8-jdk
+eclipse-temurin:17-jdk
+nacos/nacos-server:v2.1.1
+nacos/nacos-server:v3.2.3
 #支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/amd64 xiaoyaliu/alist
