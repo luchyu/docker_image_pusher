@@ -9,7 +9,7 @@ library/eclipse-temurin:17-jdk
 library/eclipse-temurin:21-jdk
 library/rabbitmq:3.11-management
 #其他版本
-minio/minio:latest
+mitmproxy/mitmproxy:latest
 btdwv/cronicle:latest
 portainer/portainer-ce:latest
 portainer/agent:latest
